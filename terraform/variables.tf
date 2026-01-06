@@ -77,9 +77,9 @@ variable "lambda_memory_mb" {
 }
 
 variable "lambda_reserved_concurrency" {
-  description = "Reserved concurrency limit for the Lambda function"
+  description = "Reserved concurrency for Lambda"
   type        = number
-  default     = 1
+  default     = 2
 }
 
 variable "schedule_expression" {
