@@ -13,7 +13,7 @@ variable "aws_region" {
 variable "source_s3_bucket" {
   description = "Existing S3 bucket name to read from"
   type        = string
-  default     = "strak-digital"
+  default     = "poonam-stark"
 }
 
 variable "source_s3_prefix" {
@@ -25,13 +25,13 @@ variable "source_s3_prefix" {
 variable "azure_subscription_id" {
   description = "Azure subscription ID"
   type        = string
-  default     = "azure_subscription_id"
+  default     = "7aed63a1-1902-416f-9a09-820744c8b99e"
 }
 
 variable "azure_tenant_id" {
   description = "Azure tenant ID"
   type        = string
-  default     = "azure azure_tenant_id"
+  default     = "f3d79d4d-8616-4a4d-b041-91d3c5d4d882"
 }
 
 variable "azure_location" {
@@ -49,7 +49,7 @@ variable "azure_rg_name" {
 variable "azure_storage_account_name" {
   description = "Globally unique storage account name"
   type        = string
-  default     = "strakbackupsa"
+  default     = "poonamstarkazure"
 }
 
 variable "azure_container_name" {
