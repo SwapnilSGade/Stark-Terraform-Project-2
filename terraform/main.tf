@@ -8,7 +8,7 @@ locals {
 
 # Include modules/files
 # AWS
-#module "aws" {
+module "aws" {
   source                     = "./aws"
   project_name               = var.project_name
   source_s3_bucket           = var.source_s3_bucket
